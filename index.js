@@ -49,7 +49,7 @@ function createMessage(fahren, celc) {
  * @returns {number} a number between 0 and the int passed in
  */
 function rand(limit) {
-  return Math.floor(Math.random() * (limit + 1));
+  return Math.round(Math.random() * (limit + 1));
 }
 
 // -------------------- DONT NOT CHANGE THE CODE BELOW ---------------------- //
